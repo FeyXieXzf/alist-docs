@@ -20,27 +20,27 @@ star: true
 
 ### **Aria2**
 
-Set Aria2 uri and Aria2 for offline download. Aria2 needs to be installed on the same server(container if use docker) as alist.
+Aria2 URI for offline downloading. Aria2 needs to be installed on the same server (same container if use Docker) as AList.
 
 
 
 ## **Qbittorrent url**
 
-Used to customize **Qbittorrent** parameters to configure the client to use
+Webpage used to configure **Qbittorrent** parameters for the client to use.
 
-The default value is: http://admin:adminadmin@localhost:8080/, you can modify it by referring to [specific instructions. ](../guide/advanced/offline-download.md#_2-qbittorrent)
+Defaults to `http://admin:adminadmin@localhost:8080/`; modify by referring to [specific instructions](../guide/advanced/offline-download.md#_2-qbittorrent).
 
 
 
 ### **Token**
 
-The token that can be used to access all API.
+Token that can access all APIs.
 
 
 
 ### **other**
 
-1. When using it, I found that there are two Aria2, but what is the difference? [**Click to view the detailed description**](../faq/why.md#what-is-the-difference-between-the-two-aria2)
+1. [**Differences between 2 Aria2.**](../faq/why.md#what-is-the-difference-between-the-two-aria2)
 2. Support using Aria2 to download folders at the same time and save the folder directory structure style
 
    - Opening method, `Toggle Checkbox` in the lower right corner--> select list file/folder--> `Download` at the bottom--> `send to Aria2`
